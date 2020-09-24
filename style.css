@@ -378,7 +378,7 @@ footer {
 		font-size: 1.0rem;
 	}
 	.header-main h2 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	letter-spacing: 4px;
 	color: #ffffff;
 	}
@@ -401,7 +401,7 @@ footer {
 		padding: 0;
 	}
 	.contact-left {
-		width: 80%;
+		width: 100%;
 	}
 	.contact-right {
 		width: 100%;
