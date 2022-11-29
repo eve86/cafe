@@ -2,127 +2,109 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <mate name="name" content="contnet"></mate>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>みらい建設</title>
+  <title>Cafe coffee</title>
 </head>
 <body>
-  <header>
-    <div class="header-in">
-      <div class="header-logo">
-        みらい建設
-      </div>
-      <div class="header-list">
-        <ul>
-          <li><a href="#news">ニュース</a></li>
-          <li><a href="#section1">事業</a></li>
-          <li><a href="#section2">実績</a></li>
-          <li><a href="#">お問い合わせ</a></li>
+  <div id="stalker"></div>
+  <header id="top">
+    <div class="header-bar">
+     <h1 ><a class="logo" href="index.html"><i class="fas fa-coffee icon"></i> Cafe coffee</a></h1>
+      <nav>
+        <ul class="header-nav">
+          <li><a href="#news">news</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#access">access</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
-      </div>
-    </div>
-    <div class="header-main">
-      <h2>あなたと共にみらいを</h2>
-      <div id="slide">
-        <div class="img img1"></div>
-        <div class="img img2"></div>
-        <div class="img img3"></div>
-      </div>
+      </nav> 
     </div>
   </header>
   <main>
-    <section class="news" id="news">
-      <h2>ニュース</h2>
+    <section>
+    <div class="header-outer">
+      <h2 class="header-content">Best moment for your life</h2>
+      <div class="header-block"></div>
+    </div>  
+    </section>
+    <section id="news" class="news main-wrapper fade">
+      <h3 class="main-title">News</h3>
       <ul>
-        <li><p class="news-content">2020年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせ</p></li>
+        <li><p class="news-content">2021年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせお知らせお知らせお知らせお知らせ...</p></li>
         <li>
-        <p class="news-content">2020年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせ</p>
+        <p class="news-content">2021年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせお知らせお知らせお知らせお知らせ...</p>
         </li>
         <li>
-        <p class="news-content">2020年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせ</p>
+        <p class="news-content">2021年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせお知らせお知らせお知らせお知らせ...</p>
         </li>
         <li>
-          <p class="news-content">2020年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせ</p>
+          <p class="news-content">2021年1月<span>お知らせ</span>お知らせお知らせお知らせお知らせお知らせお知らせお知らせお知らせ...</p>
         </li>
       </ul>
-      <p class="news-more">すべて見る</p>
+      <a href="news.html"><p class="news-more">すべて見る</p></a>
     </section>
-    <section class="section1" id="section1">
-      <div class="section1-container">
-        <div class="section1-content">
-          <h2>みらい建設の事業</h2>
-          <p>事業について見る</p>
+    <section id="menu"class="menu main-wrapper fade">
+      <h3 class="main-title">Menu</h3>
+      <div class="menus">
+        <h4>Recommend</h4>
+        <div class="menus-item">
+          <img src="https://publicdomainq.net/images/202011/18s/publicdomainq-0050532bcv.jpg" alt="menu">
+          <div class="new"><p>New</p></div>
+          <h5>おいしいごはん 1000円</h5>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        </div>
+        <div class="menus-item">
+          <img src="https://publicdomainq.net/images/201811/24s/publicdomainq-0028684qwk.jpg" alt="menu">
+          <h5>おいしいデザート 1000円</h5>
+          <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
       </div>
+      <a href="menu.html"><p class="news-more">すべて見る</p></a>
     </section>
-    <section class="section2" id="section2">
-      <h2>みらい建設の実績</h2>
-      <section class="section2-container">
-        <div class="section2-items">
-          <div class="section2-item">
-            <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-            <h3>テキスト</h3>
-            <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-          <div class="section2-item">
-            <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-            <h3>テキスト</h3>
-            <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-          <div class="section2-item">
-            <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-            <h3>テキスト</h3>
-            <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-          <div class="section2-item">
-            <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-            <h3>テキスト</h3>
-            <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-          </div>
-          <div class="section2-items">
-            <div class="section2-item">
-              <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-              <h3>テキスト</h3>
-              <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-            <div class="section2-item">
-              <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-              <h3>テキスト</h3>
-              <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-            <div class="section2-item">
-              <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-              <h3>テキスト</h3>
-              <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-            <div class="section2-item">
-              <img src="https://www.pakutaso.com/shared/img/thumb/CSK_rainbowb_TP_V.jpg" alt="">
-              <h3>テキスト</h3>
-              <p> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-        </div>
+    <section class="main-content fade">
+      <img class="c1"src="https://publicdomainq.net/images/201706/21s/publicdomainq-0010337hrr.jpg" alt="">
+      <div class="content-box c2">
+        <p>あなたに最高のひと時を</p>
       </div>
+      <div class="content-box c3">
+        <p>おしゃれな空間でゆったりと</p>
+      </div>
+      <img class="c4"src="https://publicdomainq.net/images/201807/22s/publicdomainq-0024424olf.jpg" alt="">
     </section>
-    <section class="contact">
-      <h2>お問い合わせ</h2>
-      <div class="contact-container">
-          <div class="contact-left">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853398501!2d139.76493611477093!3d35.681240537579804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1592119392638!5m2!1sja!2sjp" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div> 
-          <div class="contact-right">
-              <input type="text" placeholder="名前">
-              <input type="text" placeholder="メールアドレス">
-              <textarea placeholder="内容"></textarea>
-              <input type="submit">
-          </div>
-      </div>
-  </section>
+    <section id="access"  class="access main-wrapper fade">
+      <h3 class="main-title">Access</h3>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.827853398501!2d139.76493611477093!3d35.681240537579804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1610803136049!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section id="contact" class="contact main-wrapper fade">
+      <h3 class="main-title">Contact</h3>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="名前">
+        <input type="text" name="mail" placeholder="メールアドレス">
+        <textarea name="comment"></textarea>
+        <input class="btn" type="submit" value="送信">
+      </form>
+    </section>
   </main>
   <footer>
-
+    <div class="sns-wrapper">
+      <div class="sns-content">
+        <p>twitter</p>
+        <a class="twitter-timeline" data-width="300" data-height="450" margin="50" data-theme="light" href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">Tweets by Twitter</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div class="sns-content">
+        <p>facebook</p>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=450&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;"></iframe>
+      </div>
+      <div class="sns-content">
+        <p>youtube</p>
+        <iframe width="300" height="450" src="https://www.youtube-nocookie.com/embed/fIhLHQ2tXQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <small>© 2021 コピーライト</small>
   </footer>
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>
